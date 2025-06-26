@@ -1,6 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8FA3,20:FFB6C1,40:FFE4E1,60:F0E68C,80:98FB98,100:87CEEB&height=250&section=header&text=🧸%20Fairytale%20App&fontSize=55&fontColor=4B0082&animation=scaleIn&fontAlignY=35&desc=엄빠,%20읽어도!%20-%20AI%20동화생성%20앱&descAlignY=55&descAlign=50&descSize=18" alt="header" />
-  <img src="./images/bear.png" width="90" height="90" alt="Bear" style="margin-top: -50px;">
+  <img src="./images/bear.png" width="100" height="100" alt="Bear">
+  <h1>
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB6C1,100:DDA0DD&height=100&section=header&text=Fairytale%20App&fontSize=35&fontColor=FFFFFF&fontAlignY=50" alt="header" />
+  </h1>
+  <p><em>🌟 아이만을 위한 특별한 동화를 만들어주는 AI 앱</em></p>
 </div>
 
 ## 👀 About Project
@@ -21,7 +24,7 @@
 ---
 
 ## 📱 앱 스크린샷
-<img src="./images/app_screen.jpg" width="800" height="400" alt="홈 화면">
+<img src="./images/app_screen.jpg" width="700" height="400" alt="홈 화면">
 <details>
 <summary>
 
