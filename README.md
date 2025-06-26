@@ -1,4 +1,11 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=300&section=header&text=Fairytale%20App)
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./images/bear.png" width="60" alt="Bear"></td>
+      <td><img src="https://capsule-render.vercel.app/api?type=soft&color=0:FFE4E1,25:FFB6C1,50:DDA0DD,75:98FB98,100:87CEEB&height=180&section=header&text=✨%20Fairytale%20App%20✨&fontSize=45&fontColor=4B0082&animation=twinkling&fontAlignY=50" alt="header" /></td>
+    </tr>
+  </table>
+</div>
 
 ## 👀 About Project
 #### :raising_hand: AI 기반 개인화 동화생성 모바일 애플리케이션 "엄빠, 읽어도!"<br/>
@@ -29,7 +36,7 @@
 <details>
 <summary>🏠 홈 화면</summary>
 <br>  
-▶ 온보딩 및 홈 화면
+> 온보딩 및 홈 화면
   <br>
 <p align="center">
   <img src="./images/onboarding_screen.png" width="195" height="390" alt="온보딩 화면">
@@ -39,7 +46,7 @@
 <details>
 <summary>👤 프로필 설정 화면</summary>
 <br>
-▶ 프로필 관리
+> 프로필 관리
   <br>
 <p align="center">
   <img src="./images/setting_screen.png" width="200" height="400" alt="프로필 화면">
@@ -48,7 +55,7 @@
 <details>
 <summary>📚 동화생성 화면</summary>
 <br>
-▶ 동화 생성 및 목록
+> 동화 생성 및 목록
 <br>
 <p align="center">
   <img src="./images/stories_screen.png" width="200" height="400" alt="동화 메인">
@@ -58,7 +65,7 @@
 <details>
 <summary>🎨 색칠공부 화면</summary>
 <br>
-▶ 디지털 색칠공부
+> 디지털 색칠공부
   <br>
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" height="400" alt="색칠 화면">
@@ -67,7 +74,7 @@
 <details>
 <summary>🎵 자장가 화면</summary>
 <br>
-▶ 자장가 음악 및 영상
+> 자장가 음악 및 영상
   <br>
 <p align="center">
   <img src="./images/sleep_screen.png" width="200" height="400" alt="자장가 화면">
@@ -79,7 +86,7 @@
 <details>
 <summary>📖 우리들의 기록일지 화면</summary>
 <br>
-▶ 커뮤니티 공유
+> 커뮤니티 공유
   <br>
 <p align="center">
   <img src="./images/share_screen.png" width="200" height="400" alt="기록일지 화면">
@@ -88,7 +95,7 @@
 <details>
 <summary>📱 태블릿 지원 화면</summary>
 <br>
-▶ 반응형 UI (iPad Pro)
+> 반응형 UI (iPad Pro)
   <br>
 <p align="center">
   <img src="./images/ipad_pro_screen.png" width="420" height="400" alt="iPad Pro 화면">
@@ -474,8 +481,10 @@ docker-compose down
 ---
 
 ## 🤝 Team Contribution
-이 프로젝트에서 **Flutter 모바일 앱 개발**, **Spring Boot 백엔드 API**, **AWS 인프라 구축**, **데이터베이스 설계** 등 전 영역에 걸쳐 기여했습니다.
+이 프로젝트에서 **Flutter 모바일 앱 개발**, **Spring Boot 백엔드 API**, 
+**AWS 인프라 구축**, **데이터베이스 설계** 등 전 영역에 걸쳐 기여했습니다.
 
 ---
 
-> 🎭 **"엄빠, 읽어도!"**는 AI 기술을 활용해 아이만을 위한 특별한 동화를 만들어주는 혁신적인 교육 앱입니다.
+> 🎭 **"엄빠, 읽어도!"**는 AI 기술을 활용해
+> 아이만을 위한 특별한 동화를 만들어주는 혁신적인 교육 앱입니다.
