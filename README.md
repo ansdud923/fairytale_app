@@ -18,7 +18,6 @@
 ---
 <details>
 <summary>📱 앱 스크린샷 보기</summary>
-## 📱 앱 스크린샷
 
 ### ▶️ ① 홈 화면
 <p align="center">
@@ -47,7 +46,6 @@
 </p>
 
 </details>
----
 
 ## 🧱 Tech Stack
 
@@ -115,7 +113,7 @@
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/directory.png" width="400" alt="전체 디렉토리 구조">
+    <img src="./images/directory.png" width="600" alt="전체 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -139,7 +137,7 @@ fairytale_app/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
+    <img src="./images/flutter_directory.png" width="600" alt="Flutter 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -176,7 +174,7 @@ lib/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
+    <img src="./images/spring_directory.png" width="600" alt="Spring Boot 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -212,7 +210,7 @@ src/main/java/com/fairytale/fairytale/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
+    <img src="./images/python_directory.png" width="600" alt="Python 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
