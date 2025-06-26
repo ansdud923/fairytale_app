@@ -20,7 +20,11 @@
 ## 📱 앱 스크린샷
 <img src="./images/app_screen.jpg" width="800" height="400" alt="홈 화면">
 <details>
-<summary>📋 앱 스크린샷 디테일 보기</summary>
+<summary>
+
+### 📋 앱 스크린샷 디테일 보기
+
+</summary>
 <br>
 <details>
 <summary>🏠 홈 화면</summary>
@@ -181,7 +185,7 @@ fairytale_app/
 <details>
 <summary>📱 Flutter 앱 구조 보기</summary>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 30px;">
   <div style="flex: 1;">
     <img src="./images/flutter_directory.png" width="500" alt="Flutter 디렉토리 구조">
   </div>
