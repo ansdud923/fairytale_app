@@ -1,0 +1,18 @@
+# Python virtual environment 제외
+python/venv/** linguist-vendored
+
+# Node modules 제외 (만약 있다면)
+node_modules/** linguist-vendored
+
+# 기타 라이브러리 파일들 제외
+*.min.js linguist-vendored
+*.min.css linguist-vendored
+
+# 문서 파일들을 documentation으로 분류
+*.md linguist-documentation
+docs/** linguist-documentation
+
+# 설정 파일들 제외
+*.json linguist-detectable=false
+*.yml linguist-detectable=false
+*.yaml linguist-detectable=false
