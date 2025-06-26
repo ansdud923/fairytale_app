@@ -22,7 +22,7 @@
 <details>
 <summary>📋 앱 스크린샷 디테일 보기</summary>
 <details>
-  
+<div></div>
 <summary>🏠 홈 화면</summary>
   
 - 온보딩 및 홈 화면
@@ -33,7 +33,7 @@
 </details>
 <details>
 <summary>👤 프로필 설정 화면</summary>
-  
+<div></div>
 - 프로필 관리
 <p align="center">
   <img src="./images/setting_screen.png" width="200" height="400" alt="프로필 화면">
@@ -41,7 +41,7 @@
 </details>
 <details>
 <summary>📚 동화생성 화면</summary>
-  
+<div></div>  
 - 동화 생성 및 목록
 <p align="center">
   <img src="./images/stories_screen.png" width="200" height="400" alt="동화 메인">
@@ -50,7 +50,7 @@
 </details>
 <details>
 <summary>🎨 색칠공부 화면</summary>
-
+<div></div>
 - 디지털 색칠공부
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" height="400" alt="색칠 화면">
@@ -58,7 +58,7 @@
 </details>
 <details>
 <summary>🎵 자장가 화면</summary>
-
+<div></div>
 - 자장가 음악 및 영상
 <p align="center">
   <img src="./images/sleep_screen.png" width="200" height="400" alt="자장가 화면">
@@ -69,7 +69,7 @@
 </details>
 <details>
 <summary>📖 우리들의 기록일지 화면</summary>
-
+<div></div>
 - 커뮤니티 공유
 <p align="center">
   <img src="./images/share_screen.png" width="200" height="400" alt="기록일지 화면">
@@ -77,14 +77,14 @@
 </details>
 <details>
 <summary>📱 태블릿 지원 화면</summary>
-
+<div></div>
 - 반응형 UI (iPad Pro)
 <p align="center">
   <img src="./images/ipad_pro_screen.png" width="500" height="400" alt="iPad Pro 화면">
 </p>
 </details>
 </details>
----
+
 
 ## 🧱 Tech Stack
 
