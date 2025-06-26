@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./images/bear.png" width="100" height="100" alt="Bear">
   <h1>
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB6C1,100:DDA0DD&height=100&section=header&text=Fairytale%20App&fontSize=35&fontColor=FFFFFF&fontAlignY=50" alt="header" />
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF8DC,100:F0E68C&height=100&section=header&text=Fairytale%20App&fontSize=35&fontColor=8B4513&fontAlignY=50" alt="header" />
   </h1>
   <p><em>🌟 아이만을 위한 특별한 동화를 만들어주는 AI 앱</em></p>
 </div>
