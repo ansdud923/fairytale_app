@@ -24,8 +24,9 @@
 <br>
 <details>
 <summary>🏠 홈 화면</summary>
-  
+<br>  
 - 온보딩 및 홈 화면
+  <br>
 <p align="center">
   <img src="./images/onboarding_screen.png" width="195" height="390" alt="온보딩 화면">
   <img src="./images/home_screen.png" width="200" height="400" alt="홈 화면">
@@ -35,6 +36,7 @@
 <summary>👤 프로필 설정 화면</summary>
 <br>
 - 프로필 관리
+  <br>
 <p align="center">
   <img src="./images/setting_screen.png" width="200" height="400" alt="프로필 화면">
 </p>
@@ -43,6 +45,7 @@
 <summary>📚 동화생성 화면</summary>
 <br>
 - 동화 생성 및 목록
+<br>
 <p align="center">
   <img src="./images/stories_screen.png" width="200" height="400" alt="동화 메인">
   <img src="./images/stories_screen2.png" width="200" height="400" alt="동화 목록">
@@ -52,6 +55,7 @@
 <summary>🎨 색칠공부 화면</summary>
 <br>
 - 디지털 색칠공부
+  <br>
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" height="400" alt="색칠 화면">
 </p>
@@ -60,6 +64,7 @@
 <summary>🎵 자장가 화면</summary>
 <br>
 - 자장가 음악 및 영상
+  <br>
 <p align="center">
   <img src="./images/sleep_screen.png" width="200" height="400" alt="자장가 화면">
   <img src="./images/sleep_music_screen.png" width="200" height="400" alt="자장가 음악 화면">
@@ -71,6 +76,7 @@
 <summary>📖 우리들의 기록일지 화면</summary>
 <br>
 - 커뮤니티 공유
+  <br>
 <p align="center">
   <img src="./images/share_screen.png" width="200" height="400" alt="기록일지 화면">
 </p>
@@ -79,8 +85,9 @@
 <summary>📱 태블릿 지원 화면</summary>
 <br>
 - 반응형 UI (iPad Pro)
+  <br>
 <p align="center">
-  <img src="./images/ipad_pro_screen.png" width="500" height="400" alt="iPad Pro 화면">
+  <img src="./images/ipad_pro_screen.png" width="450" height="400" alt="iPad Pro 화면">
 </p>
 </details>
 </details>
