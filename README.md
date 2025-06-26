@@ -18,12 +18,14 @@
 ---
 
 ## 📱 앱 스크린샷
-<img src="./images/app_screen.jpg" width="600" height="400" alt="홈 화면">
+<img src="./images/app_screen.jpg" width="800" height="400" alt="홈 화면">
 <details>
 <summary>📋 앱 스크린샷 디테일 보기</summary>
 <details>
+  
 <summary>🏠 홈 화면</summary>
-▶️ 온보딩 및 홈 화면
+  
+- 온보딩 및 홈 화면
 <p align="center">
   <img src="./images/onboarding_screen.png" width="200" height="400" alt="온보딩 화면">
   <img src="./images/home_screen.png" width="200" height="400" alt="홈 화면">
@@ -31,14 +33,16 @@
 </details>
 <details>
 <summary>👤 프로필 설정 화면</summary>
-▶️ 프로필 관리
+  
+- 프로필 관리
 <p align="center">
   <img src="./images/setting_screen.png" width="200" height="400" alt="프로필 화면">
 </p>
 </details>
 <details>
 <summary>📚 동화생성 화면</summary>
-▶️ 동화 생성 및 목록
+  
+- 동화 생성 및 목록
 <p align="center">
   <img src="./images/stories_screen.png" width="200" height="400" alt="동화 메인">
   <img src="./images/stories_screen2.png" width="200" height="400" alt="동화 목록">
@@ -46,14 +50,16 @@
 </details>
 <details>
 <summary>🎨 색칠공부 화면</summary>
-▶️ 디지털 색칠공부
+
+- 디지털 색칠공부
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" height="400" alt="색칠 화면">
 </p>
 </details>
 <details>
 <summary>🎵 자장가 화면</summary>
-▶️ 자장가 음악 및 영상
+
+- 자장가 음악 및 영상
 <p align="center">
   <img src="./images/sleep_screen.png" width="200" height="400" alt="자장가 화면">
   <img src="./images/sleep_music_screen.png" width="200" height="400" alt="자장가 음악 화면">
@@ -63,14 +69,16 @@
 </details>
 <details>
 <summary>📖 우리들의 기록일지 화면</summary>
-▶️ 커뮤니티 공유
+
+- 커뮤니티 공유
 <p align="center">
   <img src="./images/share_screen.png" width="200" height="400" alt="기록일지 화면">
 </p>
 </details>
 <details>
 <summary>📱 태블릿 지원 화면</summary>
-▶️ 반응형 UI (iPad Pro)
+
+- 반응형 UI (iPad Pro)
 <p align="center">
   <img src="./images/ipad_pro_screen.png" width="500" height="400" alt="iPad Pro 화면">
 </p>
