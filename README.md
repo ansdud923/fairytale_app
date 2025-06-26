@@ -16,8 +16,9 @@
 > 📋 프로젝트 기획서 및 발표 자료를 확인해보세요!
 
 ---
+## 📱 앱 스크린샷
 <details>
-<summary>📱 앱 스크린샷 보기</summary>
+## <summary> 앱 스크린샷 보기</summary>
 
 ### ▶️ ① 홈 화면
 <p align="center">
