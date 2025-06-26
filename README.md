@@ -1,10 +1,6 @@
 <div align="center">
-  <table>
-    <tr>
-      <td><img src="./images/bear.png" width="60" alt="Bear"></td>
-      <td><img src="https://capsule-render.vercel.app/api?type=soft&color=0:FFE4E1,25:FFB6C1,50:DDA0DD,75:98FB98,100:87CEEB&height=180&section=header&text=✨%20Fairytale%20App%20✨&fontSize=45&fontColor=4B0082&animation=twinkling&fontAlignY=50" alt="header" /></td>
-    </tr>
-  </table>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8FA3,20:FFB6C1,40:FFE4E1,60:F0E68C,80:98FB98,100:87CEEB&height=250&section=header&text=🧸%20Fairytale%20App&fontSize=55&fontColor=4B0082&animation=scaleIn&fontAlignY=35&desc=엄빠,%20읽어도!%20-%20AI%20동화생성%20앱&descAlignY=55&descAlign=50&descSize=18" alt="header" />
+  <img src="./images/bear.png" width="90" height="90" alt="Bear" style="margin-top: -50px;">
 </div>
 
 ## 👀 About Project
