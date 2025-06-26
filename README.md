@@ -103,75 +103,263 @@
 ## 📂 프로젝트 구조
 
 <details>
-<summary>⚙️ 백엔드 (Spring Boot) 폴더 구조 보기</summary>
+<summary>📋 전체 프로젝트 구조 보기</summary>
 
-<p align="center">
-  <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
-</p>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="./images/directory.png" width="400" alt="전체 디렉토리 구조">
+  </div>
+  <div style="flex: 1;">
 
 ```
-src/main/java/com/fairytale/fairytale/
-├── auth/ - 인증/인가 (JWT, OAuth2.0)
-├── baby/ - 아이 정보 관리
-├── coloring/ - 색칠공부 기능
-├── gallery/ - 갤러리 관리
-├── lullaby/ - 자장가 서비스
-├── share/ - 커뮤니티 공유
-└── story/ - 동화 생성 관리
+fairytale_app/
+├── 📱 fairytale_flutter/          # Flutter 모바일 앱
+├── 🌐 fairytale_backend/          # Spring Boot API 서버  
+├── 🧠 fairytale_python/           # Python AI 서버
+├── ☁️ fairytale_infrastructure/   # AWS 인프라 설정
+├── 📄 docs/                      # 문서 및 기획서
+└── 🗃️ database/                  # DB 스키마 및 초기 데이터
 ```
+
+  </div>
+</div>
 
 </details>
 
 <details>
-<summary>📱 프론트엔드 (Flutter) 폴더 구조 보기</summary>
+<summary>📱 Flutter 앱 구조 보기</summary>
 
-<p align="center">
-  <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
-</p>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
+  </div>
+  <div style="flex: 1;">
 
 ```
 lib/
-├── models/ - 데이터 모델
-├── screens/
-│   ├── coloring/ - 색칠공부
-│   ├── gallery/ - 갤러리  
-│   ├── lullaby/ - 자장가
-│   ├── profile/ - 프로필 관리
-│   ├── service/ - API 통신
-│   ├── share/ - 커뮤니티
-│   ├── home_screen.dart
-│   └── stories_screen.dart
-└── main.dart
+├── 📄 main.dart                   # 앱 진입점
+├── 📦 models/                     # 데이터 모델
+│   ├── user_model.dart
+│   ├── story_model.dart
+│   └── coloring_model.dart
+├── 🖥️ screens/                    # 화면 구성
+│   ├── 🏠 home_screen.dart         # 홈 화면
+│   ├── 📚 stories_screen.dart      # 동화 메인
+│   ├── 🎨 coloring/               # 색칠공부
+│   │   ├── coloring_screen.dart
+│   │   └── coloring_canvas.dart
+│   ├── 📱 gallery/                # 갤러리
+│   ├── 🎵 lullaby/                # 자장가
+│   ├── 👤 profile/                # 프로필 관리
+│   ├── 🌐 service/                # API 통신
+│   └── 🤝 share/                  # 커뮤니티
+├── 🎨 widgets/                    # 재사용 위젯
+├── 🔧 utils/                      # 유틸리티
+└── 🎭 theme/                      # 테마 설정
 ```
+
+  </div>
+</div>
 
 </details>
 
 <details>
-<summary>🧠 AI 서버 (Python) 폴더 구조 보기</summary>
+<summary>⚙️ Spring Boot 백엔드 구조 보기</summary>
 
-<p align="center">
-  <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
-</p>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
+  </div>
+  <div style="flex: 1;">
+
+```
+src/main/java/com/fairytale/fairytale/
+├── 🔐 auth/                       # 인증/인가
+│   ├── controller/
+│   ├── service/
+│   ├── jwt/                       # JWT 토큰 관리
+│   └── oauth/                     # 소셜 로그인
+├── 👶 baby/                       # 아이 정보 관리
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   └── entity/
+├── 🎨 coloring/                   # 색칠공부 기능
+├── 📱 gallery/                    # 갤러리 관리
+├── 🎵 lullaby/                    # 자장가 서비스
+├── 🤝 share/                      # 커뮤니티 공유
+├── 📚 story/                      # 동화 생성 관리
+├── 🌐 config/                     # 설정 파일들
+├── 🛠️ common/                     # 공통 유틸리티
+└── 📊 FairytaleApplication.java   # 메인 클래스
+```
+
+  </div>
+</div>
+
+</details>
+
+<details>
+<summary>🧠 Python AI 서버 구조 보기</summary>
+
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
+  </div>
+  <div style="flex: 1;">
 
 ```
 python/
-├── controllers/
-│   ├── music_controller.py - 자장가 추천
-│   ├── story_controller.py - 동화 생성
-│   └── video_controller.py - 영상 생성
-└── ai_server.py - FastAPI 메인 서버
+├── 🚀 ai_server.py                # FastAPI 메인 서버
+├── 🎮 controllers/                # API 컨트롤러
+│   ├── 🎵 music_controller.py     # 자장가 추천 AI
+│   ├── 📚 story_controller.py     # 동화 생성 AI
+│   └── 🎬 video_controller.py     # 영상 생성 AI
+├── 🧠 services/                   # AI 서비스 로직
+│   ├── openai_service.py          # OpenAI GPT 연동
+│   ├── stability_service.py       # Stability AI 연동
+│   └── youtube_service.py         # YouTube API 연동
+├── 🔧 utils/                      # 유틸리티 함수
+│   ├── image_processor.py         # 이미지 처리 (OpenCV)
+│   └── audio_processor.py         # 음성 처리
+├── 📦 models/                     # 데이터 모델
+├── ⚙️ config/                     # 설정 파일
+└── 📋 requirements.txt            # Python 패키지 목록
 ```
 
+  </div>
+</div>
+
 </details>
 
-<details>
-<summary>📋 전체 디렉토리 구조 보기</summary>
+---
+
+## 📊 ERD (Entity Relationship Diagram)
 
 <p align="center">
-  <img src="./images/directory.png" width="500" alt="전체 디렉토리 구조">
+  <img src="./images/ERD.png" width="800" alt="데이터베이스 ERD">
 </p>
 
-</details>
+> 🗄️ PostgreSQL 기반으로 설계된 데이터베이스 구조입니다.
+
+---
+
+## 🛠️ 로컬 개발 환경 설정 (Getting Started)
+
+이 프로젝트는 Docker를 사용하여 간편하게 개발 환경을 설정할 수 있습니다.
+
+### 📋 사전 요구사항
+- Git
+- Docker & Docker Compose
+- Flutter SDK (3.0 이상)
+- Java 17 (Spring Boot용)
+- Python 3.9+ (AI 서버용)
+- PostgreSQL (로컬 DB용)
+
+### 🚀 설정 단계
+
+#### 1. **저장소 클론**
+```bash
+# 전체 프로젝트 클론
+git clone https://github.com/ansdud923/fairytale_app.git
+cd fairytale_app
+
+# 또는 개별 저장소 클론
+git clone https://github.com/ansdud923/fairytale_flutter.git
+git clone https://github.com/ansdud923/fairytale_backend.git  
+git clone https://github.com/ansdud923/fairytale_python.git
+```
+
+#### 2. **환경 변수 파일 생성**
+```bash
+# Spring Boot 백엔드
+cd fairytale_backend
+cp application.properties.example application.properties
+# 필요한 환경 변수를 설정합니다 (DB, AWS, OpenAI API 키 등)
+
+# Python AI 서버
+cd ../fairytale_python
+cp .env.example .env
+# OpenAI API 키, Stability AI 키 등을 설정합니다
+
+# Flutter 앱
+cd ../fairytale_flutter
+# lib/config/config.dart 파일에서 API 엔드포인트를 설정합니다
+```
+
+#### 3. **데이터베이스 설정**
+```bash
+# PostgreSQL 실행 (Docker 사용)
+docker run --name fairytale-db \
+  -e POSTGRES_DB=fairytale \
+  -e POSTGRES_USER=fairytale \
+  -e POSTGRES_PASSWORD=password \
+  -p 5432:5432 \
+  -d postgres:15
+```
+
+#### 4. **백엔드 서버 실행**
+```bash
+cd fairytale_backend
+
+# 의존성 설치 및 빌드
+./gradlew build
+
+# Spring Boot 서버 실행
+./gradlew bootRun
+```
+
+#### 5. **AI 서버 실행**
+```bash
+cd fairytale_python
+
+# Python 가상환경 생성
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 의존성 설치
+pip install -r requirements.txt
+
+# FastAPI 서버 실행
+uvicorn ai_server:app --host 0.0.0.0 --port 8001 --reload
+```
+
+#### 6. **Flutter 앱 실행**
+```bash
+cd fairytale_flutter
+
+# Flutter 의존성 설치
+flutter pub get
+
+# 앱 실행 (시뮬레이터 또는 실제 기기)
+flutter run
+```
+
+### 🌐 접속 확인
+- **📱 Flutter 앱**: 에뮬레이터 또는 실제 기기에서 실행
+- **🌐 Spring Boot API**: http://localhost:8080
+- **🧠 Python AI API**: http://localhost:8001
+- **📄 API 문서**: http://localhost:8080/swagger-ui.html
+
+### 🔧 개발 도구 추천
+- **IDE**: IntelliJ IDEA (백엔드), VS Code (Flutter, Python)
+- **데이터베이스 도구**: pgAdmin, DBeaver
+- **API 테스트**: Postman, Thunder Client
+- **모바일 테스트**: Android Studio Emulator, iOS Simulator
+
+### 🐳 Docker Compose 사용 (선택사항)
+전체 환경을 한 번에 실행하려면:
+
+```bash
+# 루트 디렉토리에서
+docker-compose up -d
+
+# 로그 확인
+docker-compose logs -f
+
+# 서비스 중지
+docker-compose down
+```
 
 ---
 
