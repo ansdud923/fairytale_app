@@ -33,7 +33,7 @@
 </details>
 <details>
 <summary>👤 프로필 설정 화면</summary>
-&nbsp;
+<br>
 - 프로필 관리
 <p align="center">
   <img src="./images/setting_screen.png" width="200" height="400" alt="프로필 화면">
