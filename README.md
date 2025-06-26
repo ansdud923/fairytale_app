@@ -17,31 +17,46 @@
 
 ---
 ## 📱 앱 스크린샷
+<img src="./images/app_screen.png" width="200" alt="홈 화면">
 <details>
-## <summary> 앱 스크린샷 보기</summary>
+## <summary> 앱 스크린샷 디테일 보기</summary>
 
 ### ▶️ ① 홈 화면
 <p align="center">
+  <img src="./images/onboarding_screen.png" width="200" alt="온보딩 화면">
   <img src="./images/home_screen.png" width="200" alt="홈 화면">
 </p>
 
-### ▶️ ② 동화생성 기능
+### ▶️ ② 프로필 설정 화면
+<p align="center">
+  <img src="./images/setting_screen.png" width="200" alt="프로필 화면">
+</p>
+
+### ▶️ ③ 동화생성 화면
 <p align="center">
   <img src="./images/stories_screen.png" width="200" alt="동화 메인">
   <img src="./images/stories_screen2.png" width="200" alt="동화 목록">
 </p>
 
-### ▶️ ③ 색칠공부 기능
+### ▶️ ④ 색칠공부 화면
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" alt="색칠 화면">
 </p>
 
-### ▶️ ④ 자장가 화면
+### ▶️ ⑤ 자장가 화면
 <p align="center">
-  <img src="./images/lullabies_screen.png" width="250" alt="자장가 화면">
+  <img src="./images/sleep_screen.png" width="250" alt="자장가 화면">
+  <img src="./images/sleep_music_screen.png" width="250" alt="자장가 음악 화면">
+  <img src="./images/sleep_movie_screen.png" width="250" alt="자장가 영상 화면">
+  <img src="./images/sleep_movie_screen2.png" width="250" alt="자장가 영상 연결화면">
 </p>
 
-### ▶️ ⑤ 태블릿 지원
+### ▶️ ⑥ 우리들의 기록일지 화면
+<p align="center">
+  <img src="./images/share_screen.png" width="250" alt="기록일지 화면">
+</p>
+
+### ▶️ ⑦ 태블릿 지원 화면
 <p align="center">
   <img src="./images/ipad_pro_screen.png" width="350" alt="iPad Pro 화면">
 </p>
