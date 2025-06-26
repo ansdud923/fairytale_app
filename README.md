@@ -16,52 +16,30 @@
 > 📋 프로젝트 기획서 및 발표 자료를 확인해보세요!
 
 ---
+
 ## 📱 앱 스크린샷
-<img src="./images/app_screen.png" width="200" alt="홈 화면">
-<details>
-## <summary> 앱 스크린샷 디테일 보기</summary>
 
-### ▶️ ① 홈 화면
+### ▶️ ① 메인 화면들
 <p align="center">
-  <img src="./images/onboarding_screen.png" width="200" alt="온보딩 화면">
   <img src="./images/home_screen.png" width="200" alt="홈 화면">
-</p>
-
-### ▶️ ② 프로필 설정 화면
-<p align="center">
-  <img src="./images/setting_screen.png" width="200" alt="프로필 화면">
-</p>
-
-### ▶️ ③ 동화생성 화면
-<p align="center">
   <img src="./images/stories_screen.png" width="200" alt="동화 메인">
   <img src="./images/stories_screen2.png" width="200" alt="동화 목록">
 </p>
 
-### ▶️ ④ 색칠공부 화면
+### ▶️ ② 색칠공부 기능
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" alt="색칠 화면">
+  <img src="./images/coloring_bear.png" width="200" alt="색칠된 곰">
+  <img src="./images/bear.png" width="200" alt="원본 곰 이미지">
 </p>
 
-### ▶️ ⑤ 자장가 화면
+### ▶️ ③ 자장가 & 태블릿 지원
 <p align="center">
-  <img src="./images/sleep_screen.png" width="250" alt="자장가 화면">
-  <img src="./images/sleep_music_screen.png" width="250" alt="자장가 음악 화면">
-  <img src="./images/sleep_movie_screen.png" width="250" alt="자장가 영상 화면">
-  <img src="./images/sleep_movie_screen2.png" width="250" alt="자장가 영상 연결화면">
-</p>
-
-### ▶️ ⑥ 우리들의 기록일지 화면
-<p align="center">
-  <img src="./images/share_screen.png" width="250" alt="기록일지 화면">
-</p>
-
-### ▶️ ⑦ 태블릿 지원 화면
-<p align="center">
+  <img src="./images/sleep_bear.png" width="250" alt="자장가 화면">
   <img src="./images/ipad_pro_screen.png" width="350" alt="iPad Pro 화면">
 </p>
 
-</details>
+---
 
 ## 🧱 Tech Stack
 
@@ -129,7 +107,7 @@
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/directory.png" width="600" alt="전체 디렉토리 구조">
+    <img src="./images/directory.png" width="400" alt="전체 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -153,7 +131,7 @@ fairytale_app/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/flutter_directory.png" width="600" alt="Flutter 디렉토리 구조">
+    <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -190,7 +168,7 @@ lib/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/spring_directory.png" width="600" alt="Spring Boot 디렉토리 구조">
+    <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -226,7 +204,7 @@ src/main/java/com/fairytale/fairytale/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/python_directory.png" width="600" alt="Python 디렉토리 구조">
+    <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
