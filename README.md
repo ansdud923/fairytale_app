@@ -18,7 +18,7 @@
 ---
 
 ## 📱 앱 스크린샷
-<img src="./images/app_screen.png" width="200" alt="홈 화면">
+<img src="./images/app_screen.jpg" width="200" alt="홈 화면">
 
 <details>
 <summary>📋 앱 스크린샷 디테일 보기</summary>
