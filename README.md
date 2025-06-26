@@ -9,10 +9,10 @@
 
 ## 🚀 시연 영상 및 주요 결과
 
-### 🎬 [전체 기능 시연 영상 보러가기](./images/시연영상.mp4) 
+### 🎬 [전체 기능 시연 영상 보러가기](https://drive.google.com/file/d/1XXKdtG4rx2Q8TNCUGCAxraOUFC_E01TU/preview) 
 > 📱 실제 앱 사용 모습을 영상으로 확인해보세요!
 
-### 📊 [프로젝트 발표 자료 보러가기](./images/모바일앱_기획서_1조_발표_버전.pdf)
+### 📊 [프로젝트 발표 자료 보러가기](https://drive.google.com/file/d/1RoQF4mNE1gvWeFgRVHXDASi0m9Vq_XL0/view?usp=sharing)
 > 📋 프로젝트 기획서 및 발표 자료를 확인해보세요!
 
 ---
