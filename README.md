@@ -21,8 +21,8 @@
 <img src="./images/app_screen.jpg" width="800" height="400" alt="홈 화면">
 <details>
 <summary>📋 앱 스크린샷 디테일 보기</summary>
-<details>
 <br>
+<details>
 <summary>🏠 홈 화면</summary>
   
 - 온보딩 및 홈 화면
