@@ -29,7 +29,7 @@
 <details>
 <summary>🏠 홈 화면</summary>
 <br>  
-- 온보딩 및 홈 화면
+▶ 온보딩 및 홈 화면
   <br>
 <p align="center">
   <img src="./images/onboarding_screen.png" width="195" height="390" alt="온보딩 화면">
@@ -39,7 +39,7 @@
 <details>
 <summary>👤 프로필 설정 화면</summary>
 <br>
-- 프로필 관리
+▶ 프로필 관리
   <br>
 <p align="center">
   <img src="./images/setting_screen.png" width="200" height="400" alt="프로필 화면">
@@ -187,7 +187,7 @@ fairytale_app/
 
 <div style="display: flex; align-items: flex-start; gap: 40px;">
   <div style="flex: 1;">
-    <img src="./images/flutter_directory.png" width="600" alt="Flutter 디렉토리 구조">
+    <img src="./images/flutter_directory.png" width="800" alt="Flutter 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -224,7 +224,7 @@ lib/
 
 <div style="display: flex; align-items: flex-start; gap: 40px;">
   <div style="flex: 1;">
-    <img src="./images/spring_directory.png" width="600" alt="Spring Boot 디렉토리 구조">
+    <img src="./images/spring_directory.png" width="800" alt="Spring Boot 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -260,7 +260,7 @@ src/main/java/com/fairytale/fairytale/
 
 <div style="display: flex; align-items: flex-start; gap: 40px;">
   <div style="flex: 1;">
-    <img src="./images/python_directory.png" width="600" alt="Python 디렉토리 구조">
+    <img src="./images/python_directory.png" width="800" alt="Python 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
