@@ -5,6 +5,57 @@
 #### :fire: 아이만을 위한 맞춤형 동화와 색칠공부를 제공하는 풀스택 프로젝트<br/>
 #### :mortar_board: 1조 팀 협업 프로젝트 - Flutter + Spring Boot + Python FastAPI
 
+## 📱 App Demo & Screenshots
+
+<details>
+<summary>🎬 앱 시연 영상 보기</summary>
+
+### 📹 App Demo Video
+![앱 시연 영상](./images/시연영상.mp4)
+
+*📱 실제 앱 사용 모습을 영상으로 확인해보세요!*
+
+</details>
+
+<details>
+<summary>📱 앱 스크린샷 갤러리</summary>
+
+### 🏠 메인 화면들
+<p align="center">
+  <img src="./images/home_screen.png" width="200" alt="홈 화면">
+  <img src="./images/stories_screen.png" width="200" alt="동화 메인">
+  <img src="./images/stories_screen2.png" width="200" alt="동화 목록">
+</p>
+
+### 🎨 색칠공부 기능
+<p align="center">
+  <img src="./images/coloring_screen.png" width="200" alt="색칠 화면">
+  <img src="./images/coloring_bear.png" width="200" alt="색칠된 곰">
+  <img src="./images/bear.png" width="200" alt="원본 곰 이미지">
+</p>
+
+### 🛌 자장가 기능
+<p align="center">
+  <img src="./images/sleep_bear.png" width="300" alt="자장가 화면">
+</p>
+
+### 📱 태블릿 지원
+<p align="center">
+  <img src="./images/ipad_pro_screen.png" width="400" alt="iPad Pro 화면">
+</p>
+
+</details>
+
+<details>
+<summary>📊 프로젝트 발표 자료</summary>
+
+### 📋 발표 PPT 자료
+[![프로젝트 발표 자료](https://img.shields.io/badge/📊_발표자료-PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](./images/모바일앱_기획서_1조_발표_버전.pdf)
+
+*📖 프로젝트 기획서 및 발표 자료를 확인해보세요!*
+
+</details>
+
 ## 🧱 Tech Stack
 
 ### Frontend
@@ -43,6 +94,14 @@
 #### 🎵 스마트 자장가 - YouTube API 기반 테마별 자장가 추천
 
 ## 🏗️ Architecture
+
+<details open>
+<summary>🔧 시스템 아키텍처</summary>
+
+<p align="center">
+  <img src="./images/Architecture.png" width="700" alt="시스템 아키텍처">
+</p>
+
 ```
 📱 Flutter App (Client)
     ↕️
@@ -53,7 +112,34 @@
 ☁️ AWS S3 + PostgreSQL + OpenAI API
 ```
 
+</details>
+
 ## 📂 Project Structure
+
+<details>
+<summary>📁 프로젝트 디렉토리 구조</summary>
+
+### 📱 Flutter App Directory
+<p align="center">
+  <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
+</p>
+
+### 🌐 Spring Boot Directory  
+<p align="center">
+  <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
+</p>
+
+### 🐍 Python AI Server Directory
+<p align="center">
+  <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
+</p>
+
+### 📋 전체 디렉토리 구조
+<p align="center">
+  <img src="./images/directory.png" width="500" alt="전체 디렉토리 구조">
+</p>
+
+</details>
 
 ### Flutter App (Frontend)
 ```
@@ -138,7 +224,6 @@ python/
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=ansdud923&show_icons=true&theme=sunset-gradient&title_color=FF6B6B&text_color=8B4513&bg_color=0,FFCCCB,FFFFE0&border_color=FF6B6B)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ansdud923&layout=compact&theme=sunset-gradient&title_color=FF6B6B&text_color=8B4513&bg_color=0,FFCCCB,FFFFE0&border_color=FF6B6B&include_repos=fairytale_app&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
-
 
 ## 🤝 Team Contribution
 이 프로젝트에서 **Flutter 모바일 앱 개발**, **Spring Boot 백엔드 API**, **AWS 인프라 구축**, **데이터베이스 설계** 등 전 영역에 걸쳐 기여했습니다.
