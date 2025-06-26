@@ -16,29 +16,37 @@
 > 📋 프로젝트 기획서 및 발표 자료를 확인해보세요!
 
 ---
-
+<details>
+<summary>📱 앱 스크린샷 보기</summary>
 ## 📱 앱 스크린샷
 
-### ▶️ ① 메인 화면들
+### ▶️ ① 홈 화면
 <p align="center">
   <img src="./images/home_screen.png" width="200" alt="홈 화면">
+</p>
+
+### ▶️ ② 동화생성 기능
+<p align="center">
   <img src="./images/stories_screen.png" width="200" alt="동화 메인">
   <img src="./images/stories_screen2.png" width="200" alt="동화 목록">
 </p>
 
-### ▶️ ② 색칠공부 기능
+### ▶️ ③ 색칠공부 기능
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" alt="색칠 화면">
-  <img src="./images/coloring_bear.png" width="200" alt="색칠된 곰">
-  <img src="./images/bear.png" width="200" alt="원본 곰 이미지">
 </p>
 
-### ▶️ ③ 자장가 & 태블릿 지원
+### ▶️ ④ 자장가 화면
 <p align="center">
-  <img src="./images/sleep_bear.png" width="250" alt="자장가 화면">
+  <img src="./images/lullabies_screen.png" width="250" alt="자장가 화면">
+</p>
+
+### ▶️ ⑤ 태블릿 지원
+<p align="center">
   <img src="./images/ipad_pro_screen.png" width="350" alt="iPad Pro 화면">
 </p>
 
+</details>
 ---
 
 ## 🧱 Tech Stack
