@@ -115,10 +115,9 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white)
 
 ### Database & Storage
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![AWS RDS](https://img.shields.io/badge/AWS_RDS_(PostgreSQL)-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon_S3-FF9900?style=flat-square&logo=amazon-s3&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white)
-![AWS RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=flat-square&logo=amazon-rds&logoColor=white)
 
 ### AI & APIs
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
@@ -157,7 +156,7 @@
     ↕️  
 🧠 Python FastAPI Server (AI Processing)
     ↕️
-☁️ AWS S3 + PostgreSQL + OpenAI API
+☁️ AWS S3 + AWS RDS(PostgreSQL) + OpenAI API
 ```
 
 ---
@@ -302,13 +301,13 @@ python/
   <img src="./images/ERD.png" width="800" alt="데이터베이스 ERD">
 </p>
 
-> 🗄️ PostgreSQL 기반으로 설계된 데이터베이스 구조입니다.
+> 🗄️ AWS RDS PostgreSQL 기반으로 설계된 데이터베이스 구조입니다.
 
 ---
 
 ## 🛠️ 로컬 개발 환경 설정 (Getting Started)
 
-이 프로젝트는 Docker를 사용하여 간편하게 개발 환경을 설정할 수 있습니다.
+이 프로젝트는 AWS 클라우드 서비스와 로컬 개발을 모두 지원합니다.
 
 ### 📋 사전 요구사항
 - Git
@@ -316,7 +315,7 @@ python/
 - Flutter SDK (3.0 이상)
 - Java 17 (Spring Boot용)
 - Python 3.9+ (AI 서버용)
-- PostgreSQL (로컬 DB용)
+- AWS 계정 (RDS, S3 사용)
 
 ### 🚀 설정 단계
 
@@ -332,46 +331,74 @@ git clone https://github.com/ansdud923/fairytale_backend.git
 git clone https://github.com/ansdud923/fairytale_python.git
 ```
 
-#### 2. **환경 변수 파일 생성**
+#### 2. **AWS 리소스 설정**
+```bash
+# AWS RDS PostgreSQL 인스턴스 생성
+# - 엔진: PostgreSQL 15
+# - 인스턴스 클래스: db.t3.micro (프리티어)
+# - 데이터베이스 이름: fairytale
+# - 보안 그룹: 5432 포트 허용
+
+# AWS S3 버킷 생성
+# - 버킷 이름: fairytale-app-storage
+# - 지역: ap-northeast-2 (서울)
+# - 퍼블릭 액세스 차단 해제 (필요시)
+```
+
+#### 3. **환경 변수 파일 생성**
 ```bash
 # Spring Boot 백엔드
 cd fairytale_backend
 cp application.properties.example application.properties
-# 필요한 환경 변수를 설정합니다 (DB, AWS, OpenAI API 키 등)
+
+# application.properties 설정 예시:
+# spring.datasource.url=jdbc:postgresql://your-rds-endpoint:5432/fairytale
+# spring.datasource.username=your-username
+# spring.datasource.password=your-password
+# aws.s3.bucket-name=fairytale-app-storage
+# aws.access-key-id=your-access-key
+# aws.secret-access-key=your-secret-key
+# jwt.secret=your-jwt-secret
+# openai.api.key=your-openai-key
 
 # Python AI 서버
 cd ../fairytale_python
 cp .env.example .env
-# OpenAI API 키, Stability AI 키 등을 설정합니다
+
+# .env 설정 예시:
+# OPENAI_API_KEY=your-openai-key
+# STABILITY_API_KEY=your-stability-key
+# YOUTUBE_API_KEY=your-youtube-key
+# AWS_ACCESS_KEY_ID=your-access-key
+# AWS_SECRET_ACCESS_KEY=your-secret-key
+# AWS_REGION=ap-northeast-2
 
 # Flutter 앱
 cd ../fairytale_flutter
 # lib/config/config.dart 파일에서 API 엔드포인트를 설정합니다
 ```
 
-#### 3. **데이터베이스 설정**
+#### 4. **데이터베이스 초기화**
 ```bash
-# PostgreSQL 실행 (Docker 사용)
-docker run --name fairytale-db \
-  -e POSTGRES_DB=fairytale \
-  -e POSTGRES_USER=fairytale \
-  -e POSTGRES_PASSWORD=password \
-  -p 5432:5432 \
-  -d postgres:15
+# AWS RDS 연결 확인
+psql -h your-rds-endpoint -U your-username -d fairytale
+
+# 스키마 생성 (Spring Boot가 자동으로 처리하지만 수동 실행 가능)
+# database/schema.sql 파일 실행
 ```
 
-#### 4. **백엔드 서버 실행**
+#### 5. **백엔드 서버 실행**
 ```bash
 cd fairytale_backend
 
 # 의존성 설치 및 빌드
 ./gradlew build
 
-# Spring Boot 서버 실행
+# Spring Boot 서버 실행 (AWS RDS 연결)
 ./gradlew bootRun
 ```
 
-#### 5. **AI 서버 실행**
+#### 6. **AI 서버 실행**
 ```bash
 cd fairytale_python
 
@@ -386,7 +413,7 @@ pip install -r requirements.txt
 uvicorn ai_server:app --host 0.0.0.0 --port 8001 --reload
 ```
 
-#### 6. **Flutter 앱 실행**
+#### 7. **Flutter 앱 실행**
 ```bash
 cd fairytale_flutter
 
@@ -402,19 +429,25 @@ flutter run
 - **🌐 Spring Boot API**: http://localhost:8080
 - **🧠 Python AI API**: http://localhost:8001
 - **📄 API 문서**: http://localhost:8080/swagger-ui.html
+- **🗄️ AWS RDS**: your-rds-endpoint:5432
+- **☁️ AWS S3**: https://s3.ap-northeast-2.amazonaws.com/your-bucket
 
 ### 🔧 개발 도구 추천
 - **IDE**: IntelliJ IDEA (백엔드), VS Code (Flutter, Python)
-- **데이터베이스 도구**: pgAdmin, DBeaver
+- **데이터베이스 도구**: pgAdmin, DBeaver (AWS RDS 연결)
+- **AWS 도구**: AWS CLI, AWS Console
 - **API 테스트**: Postman, Thunder Client
 - **모바일 테스트**: Android Studio Emulator, iOS Simulator
 
-### 🐳 Docker Compose 사용 (선택사항)
-전체 환경을 한 번에 실행하려면:
+### 🐳 Docker Compose 사용 (로컬 개발용)
+AWS 서비스 대신 로컬 환경을 원한다면:
 
 ```bash
-# 루트 디렉토리에서
-docker-compose up -d
+# 로컬 PostgreSQL + 백엔드 실행
+docker-compose -f docker-compose.local.yml up -d
+
+# AWS 연결 버전
+docker-compose -f docker-compose.aws.yml up -d
 
 # 로그 확인
 docker-compose logs -f
@@ -423,13 +456,19 @@ docker-compose logs -f
 docker-compose down
 ```
 
+### ⚠️ 보안 주의사항
+- **환경 변수 파일 (.env, application.properties)을 Git에 커밋하지 마세요**
+- **AWS 키는 IAM에서 최소 권한으로 설정하세요**
+- **RDS 보안 그룹은 필요한 IP만 허용하세요**
+- **S3 버킷 정책을 적절히 설정하세요**
+
 ---
 
 ## 💻 My Main Technologies
 📱 **Frontend**: Flutter/Dart - 크로스플랫폼 모바일 앱 개발  
 🌐 **Backend**: Spring Boot/Java - RESTful API 서버 및 인증 시스템  
 🧠 **AI Server**: Python/FastAPI - AI 모델 통합 및 처리  
-🗄️ **Database**: PostgreSQL - 관계형 데이터베이스 설계 및 관리  
+🗄️ **Database**: AWS RDS (PostgreSQL) - 관리형 관계형 데이터베이스  
 ☁️ **DevOps**: AWS (EC2, RDS, S3) - 클라우드 인프라 구축  
 
 ---
@@ -449,8 +488,9 @@ docker-compose down
 
 ### ☁️ Cloud & Infrastructure
 - **AWS S3**: Presigned URL을 통한 안전한 파일 스토리지
-- **AWS RDS**: PostgreSQL 기반 관계형 데이터베이스
+- **AWS RDS (PostgreSQL)**: 관리형 관계형 데이터베이스, 자동 백업 및 확장성
 - **AWS EC2**: 백엔드 서버 호스팅
+- **VPC & Security Groups**: 네트워크 보안 및 격리
 
 ### 📱 Mobile Development
 - **Flutter**: 크로스플랫폼 네이티브 성능
@@ -481,7 +521,7 @@ docker-compose down
 
 ## 🤝 Team Contribution
 이 프로젝트에서 **Flutter 모바일 앱 개발**, **Spring Boot 백엔드 API**, 
-**AWS 인프라 구축**, **데이터베이스 설계** 등 전 영역에 걸쳐 기여했습니다.
+**AWS 클라우드 인프라 구축**, **RDS PostgreSQL 데이터베이스 설계** 등 전 영역에 걸쳐 기여했습니다.
 
 ---
 
