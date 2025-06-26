@@ -4,6 +4,13 @@ python/venv/** linguist-vendored
 # Node modules 제외 (만약 있다면)
 node_modules/** linguist-vendored
 
+# 바이너리 파일들 제외 (C 언어로 잘못 인식되는 파일들)
+*.so linguist-vendored
+*.dylib linguist-vendored
+*.dll linguist-vendored
+*.a linguist-vendored
+*.o linguist-vendored
+
 # 기타 라이브러리 파일들 제외
 *.min.js linguist-vendored
 *.min.css linguist-vendored
@@ -16,3 +23,8 @@ docs/** linguist-documentation
 *.json linguist-detectable=false
 *.yml linguist-detectable=false
 *.yaml linguist-detectable=false
+
+# 특정 언어 강제 지정
+*.dart linguist-language=Dart
+*.java linguist-language=Java
+*.py linguist-language=Python
