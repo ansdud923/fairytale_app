@@ -22,7 +22,7 @@
 <details>
 <summary>
 
-### 📋 앱 스크린샷 디테일 보기
+#### 📋 앱 스크린샷 디테일 보기
 
 </summary>
 <br>
@@ -48,7 +48,7 @@
 <details>
 <summary>📚 동화생성 화면</summary>
 <br>
-- 동화 생성 및 목록
+▶ 동화 생성 및 목록
 <br>
 <p align="center">
   <img src="./images/stories_screen.png" width="200" height="400" alt="동화 메인">
@@ -58,7 +58,7 @@
 <details>
 <summary>🎨 색칠공부 화면</summary>
 <br>
-- 디지털 색칠공부
+▶ 디지털 색칠공부
   <br>
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" height="400" alt="색칠 화면">
@@ -67,7 +67,7 @@
 <details>
 <summary>🎵 자장가 화면</summary>
 <br>
-- 자장가 음악 및 영상
+▶ 자장가 음악 및 영상
   <br>
 <p align="center">
   <img src="./images/sleep_screen.png" width="200" height="400" alt="자장가 화면">
@@ -79,7 +79,7 @@
 <details>
 <summary>📖 우리들의 기록일지 화면</summary>
 <br>
-- 커뮤니티 공유
+▶ 커뮤니티 공유
   <br>
 <p align="center">
   <img src="./images/share_screen.png" width="200" height="400" alt="기록일지 화면">
@@ -88,7 +88,7 @@
 <details>
 <summary>📱 태블릿 지원 화면</summary>
 <br>
-- 반응형 UI (iPad Pro)
+▶ 반응형 UI (iPad Pro)
   <br>
 <p align="center">
   <img src="./images/ipad_pro_screen.png" width="420" height="400" alt="iPad Pro 화면">
@@ -185,9 +185,9 @@ fairytale_app/
 <details>
 <summary>📱 Flutter 앱 구조 보기</summary>
 
-<div style="display: flex; align-items: flex-start; gap: 30px;">
+<div style="display: flex; align-items: flex-start; gap: 40px;">
   <div style="flex: 1;">
-    <img src="./images/flutter_directory.png" width="500" alt="Flutter 디렉토리 구조">
+    <img src="./images/flutter_directory.png" width="600" alt="Flutter 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -222,9 +222,9 @@ lib/
 <details>
 <summary>⚙️ Spring Boot 백엔드 구조 보기</summary>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 40px;">
   <div style="flex: 1;">
-    <img src="./images/spring_directory.png" width="500" alt="Spring Boot 디렉토리 구조">
+    <img src="./images/spring_directory.png" width="600" alt="Spring Boot 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -258,9 +258,9 @@ src/main/java/com/fairytale/fairytale/
 <details>
 <summary>🧠 Python AI 서버 구조 보기</summary>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 40px;">
   <div style="flex: 1;">
-    <img src="./images/python_directory.png" width="500" alt="Python 디렉토리 구조">
+    <img src="./images/python_directory.png" width="600" alt="Python 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
