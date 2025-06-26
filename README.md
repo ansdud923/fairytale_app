@@ -1,6 +1,4 @@
-# 엄빠, 읽어도! 📖
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=300&section=header&text=Fairytale%20App%20%F0%9F%93%96)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=300&section=header&text=Fairytale%20App)
 
 ## 👀 About Project
 #### :raising_hand: AI 기반 개인화 동화생성 모바일 애플리케이션 "엄빠, 읽어도!"<br/>
