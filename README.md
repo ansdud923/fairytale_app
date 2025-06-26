@@ -87,7 +87,7 @@
 - 반응형 UI (iPad Pro)
   <br>
 <p align="center">
-  <img src="./images/ipad_pro_screen.png" width="450" height="400" alt="iPad Pro 화면">
+  <img src="./images/ipad_pro_screen.png" width="420" height="400" alt="iPad Pro 화면">
 </p>
 </details>
 </details>
@@ -159,7 +159,7 @@
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/directory.png" width="400" alt="전체 디렉토리 구조">
+    <img src="./images/directory.png" width="500" alt="전체 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -183,7 +183,7 @@ fairytale_app/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
+    <img src="./images/flutter_directory.png" width="500" alt="Flutter 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -220,7 +220,7 @@ lib/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
+    <img src="./images/spring_directory.png" width="500" alt="Spring Boot 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
@@ -256,7 +256,7 @@ src/main/java/com/fairytale/fairytale/
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="flex: 1;">
-    <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
+    <img src="./images/python_directory.png" width="500" alt="Python 디렉토리 구조">
   </div>
   <div style="flex: 1;">
 
