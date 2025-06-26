@@ -5,56 +5,41 @@
 #### :fire: 아이만을 위한 맞춤형 동화와 색칠공부를 제공하는 풀스택 프로젝트<br/>
 #### :mortar_board: 1조 팀 협업 프로젝트 - Flutter + Spring Boot + Python FastAPI
 
-## 📱 App Demo & Screenshots
+---
 
-<details>
-<summary>🎬 앱 시연 영상 보기</summary>
+## 🚀 시연 영상 및 주요 결과
 
-### 📹 App Demo Video
-![앱 시연 영상](./images/시연영상.mp4)
+### 🎬 [전체 기능 시연 영상 보러가기](./images/시연영상.mp4) 
+> 📱 실제 앱 사용 모습을 영상으로 확인해보세요!
 
-*📱 실제 앱 사용 모습을 영상으로 확인해보세요!*
+### 📊 [프로젝트 발표 자료 보러가기](./images/모바일앱_기획서_1조_발표_버전.pdf)
+> 📋 프로젝트 기획서 및 발표 자료를 확인해보세요!
 
-</details>
+---
 
-<details>
-<summary>📱 앱 스크린샷 갤러리</summary>
+## 📱 앱 스크린샷
 
-### 🏠 메인 화면들
+### ▶️ ① 메인 화면들
 <p align="center">
   <img src="./images/home_screen.png" width="200" alt="홈 화면">
   <img src="./images/stories_screen.png" width="200" alt="동화 메인">
   <img src="./images/stories_screen2.png" width="200" alt="동화 목록">
 </p>
 
-### 🎨 색칠공부 기능
+### ▶️ ② 색칠공부 기능
 <p align="center">
   <img src="./images/coloring_screen.png" width="200" alt="색칠 화면">
   <img src="./images/coloring_bear.png" width="200" alt="색칠된 곰">
   <img src="./images/bear.png" width="200" alt="원본 곰 이미지">
 </p>
 
-### 🛌 자장가 기능
+### ▶️ ③ 자장가 & 태블릿 지원
 <p align="center">
-  <img src="./images/sleep_bear.png" width="300" alt="자장가 화면">
+  <img src="./images/sleep_bear.png" width="250" alt="자장가 화면">
+  <img src="./images/ipad_pro_screen.png" width="350" alt="iPad Pro 화면">
 </p>
 
-### 📱 태블릿 지원
-<p align="center">
-  <img src="./images/ipad_pro_screen.png" width="400" alt="iPad Pro 화면">
-</p>
-
-</details>
-
-<details>
-<summary>📊 프로젝트 발표 자료</summary>
-
-### 📋 발표 PPT 자료
-[![프로젝트 발표 자료](https://img.shields.io/badge/📊_발표자료-PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](./images/모바일앱_기획서_1조_발표_버전.pdf)
-
-*📖 프로젝트 기획서 및 발표 자료를 확인해보세요!*
-
-</details>
+---
 
 ## 🧱 Tech Stack
 
@@ -84,19 +69,20 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-## 🌟 Main Features
-#### 🎨 AI 동화 생성 - OpenAI GPT를 활용한 개인화된 동화 창작
-#### 🖼️ AI 이미지 생성 - Stability AI로 동화 일러스트 자동 생성  
-#### 🎵 TTS 음성 합성 - 9가지 목소리로 동화 읽어주기
-#### 🎨 색칠공부 - 생성된 이미지를 흑백 변환하여 디지털 색칠
-#### 📱 갤러리 - 동화와 색칠 작품 저장 및 관리
-#### 🎬 커뮤니티 공유 - 동영상 생성 후 사용자간 공유
-#### 🎵 스마트 자장가 - YouTube API 기반 테마별 자장가 추천
+---
 
-## 🏗️ Architecture
+## ✨ 주요 특징 (Key Features)
+🎨 **AI 동화 생성**: OpenAI GPT를 활용한 개인화된 동화 창작  
+🖼️ **AI 이미지 생성**: Stability AI로 동화 일러스트 자동 생성  
+🎵 **TTS 음성 합성**: 9가지 목소리로 동화 읽어주기  
+🎨 **색칠공부**: 생성된 이미지를 흑백 변환하여 디지털 색칠  
+📱 **갤러리**: 동화와 색칠 작품 저장 및 관리  
+🎬 **커뮤니티 공유**: 동영상 생성 후 사용자간 공유  
+🎵 **스마트 자장가**: YouTube API 기반 테마별 자장가 추천  
 
-<details open>
-<summary>🔧 시스템 아키텍처</summary>
+---
+
+## 🗺️ 전체 아키텍처
 
 <p align="center">
   <img src="./images/Architecture.png" width="700" alt="시스템 아키텍처">
@@ -112,36 +98,37 @@
 ☁️ AWS S3 + PostgreSQL + OpenAI API
 ```
 
-</details>
+---
 
-## 📂 Project Structure
+## 📂 프로젝트 구조
 
 <details>
-<summary>📁 프로젝트 디렉토리 구조</summary>
+<summary>⚙️ 백엔드 (Spring Boot) 폴더 구조 보기</summary>
 
-### 📱 Flutter App Directory
-<p align="center">
-  <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
-</p>
-
-### 🌐 Spring Boot Directory  
 <p align="center">
   <img src="./images/spring_directory.png" width="400" alt="Spring Boot 디렉토리 구조">
 </p>
 
-### 🐍 Python AI Server Directory
-<p align="center">
-  <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
-</p>
-
-### 📋 전체 디렉토리 구조
-<p align="center">
-  <img src="./images/directory.png" width="500" alt="전체 디렉토리 구조">
-</p>
+```
+src/main/java/com/fairytale/fairytale/
+├── auth/ - 인증/인가 (JWT, OAuth2.0)
+├── baby/ - 아이 정보 관리
+├── coloring/ - 색칠공부 기능
+├── gallery/ - 갤러리 관리
+├── lullaby/ - 자장가 서비스
+├── share/ - 커뮤니티 공유
+└── story/ - 동화 생성 관리
+```
 
 </details>
 
-### Flutter App (Frontend)
+<details>
+<summary>📱 프론트엔드 (Flutter) 폴더 구조 보기</summary>
+
+<p align="center">
+  <img src="./images/flutter_directory.png" width="400" alt="Flutter 디렉토리 구조">
+</p>
+
 ```
 lib/
 ├── models/ - 데이터 모델
@@ -157,19 +144,15 @@ lib/
 └── main.dart
 ```
 
-### Spring Boot Server (Backend)
-```
-src/main/java/com/fairytale/fairytale/
-├── auth/ - 인증/인가 (JWT, OAuth2.0)
-├── baby/ - 아이 정보 관리
-├── coloring/ - 색칠공부 기능
-├── gallery/ - 갤러리 관리
-├── lullaby/ - 자장가 서비스
-├── share/ - 커뮤니티 공유
-└── story/ - 동화 생성 관리
-```
+</details>
 
-### Python AI Server (AI Processing)
+<details>
+<summary>🧠 AI 서버 (Python) 폴더 구조 보기</summary>
+
+<p align="center">
+  <img src="./images/python_directory.png" width="400" alt="Python 디렉토리 구조">
+</p>
+
 ```
 python/
 ├── controllers/
@@ -179,12 +162,27 @@ python/
 └── ai_server.py - FastAPI 메인 서버
 ```
 
+</details>
+
+<details>
+<summary>📋 전체 디렉토리 구조 보기</summary>
+
+<p align="center">
+  <img src="./images/directory.png" width="500" alt="전체 디렉토리 구조">
+</p>
+
+</details>
+
+---
+
 ## 💻 My Main Technologies
-#### 📱 **Frontend**: Flutter/Dart - 크로스플랫폼 모바일 앱 개발
-#### 🌐 **Backend**: Spring Boot/Java - RESTful API 서버 및 인증 시스템  
-#### 🧠 **AI Server**: Python/FastAPI - AI 모델 통합 및 처리
-#### 🗄️ **Database**: PostgreSQL - 관계형 데이터베이스 설계 및 관리
-#### ☁️ **DevOps**: AWS (EC2, RDS, S3) - 클라우드 인프라 구축
+📱 **Frontend**: Flutter/Dart - 크로스플랫폼 모바일 앱 개발  
+🌐 **Backend**: Spring Boot/Java - RESTful API 서버 및 인증 시스템  
+🧠 **AI Server**: Python/FastAPI - AI 모델 통합 및 처리  
+🗄️ **Database**: PostgreSQL - 관계형 데이터베이스 설계 및 관리  
+☁️ **DevOps**: AWS (EC2, RDS, S3) - 클라우드 인프라 구축  
+
+---
 
 ## 🚀 Key Technologies & Features
 
@@ -214,16 +212,22 @@ python/
 - **YouTube Data API**: 테마별 자장가 추천
 - **영상 생성**: 이미지와 음성을 결합한 동화 영상 제작
 
+---
+
 ## 📋 Development Info
-#### 📅 **개발기간**: 2025년 5월 19일 ~ 6월 23일 (총 36일)
-#### 👥 **팀구성**: 1조 <일단해조> (3명 풀스택 협업)
-#### 📱 **버전**: v1.0.0
-#### 🎯 **타겟**: 부모와 아이를 위한 교육 앱
+📅 **개발기간**: 2025년 5월 19일 ~ 6월 23일 (총 36일)  
+👥 **팀구성**: 1조 <일단해조> (3명 풀스택 협업)  
+📱 **버전**: v1.0.0  
+🎯 **타겟**: 부모와 아이를 위한 교육 앱  
+
+---
 
 ## 🤔 Project Stats
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=ansdud923&show_icons=true&theme=sunset-gradient&title_color=FF6B6B&text_color=8B4513&bg_color=0,FFCCCB,FFFFE0&border_color=FF6B6B)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ansdud923&layout=compact&theme=sunset-gradient&title_color=FF6B6B&text_color=8B4513&bg_color=0,FFCCCB,FFFFE0&border_color=FF6B6B&include_repos=fairytale_app&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+
+---
 
 ## 🤝 Team Contribution
 이 프로젝트에서 **Flutter 모바일 앱 개발**, **Spring Boot 백엔드 API**, **AWS 인프라 구축**, **데이터베이스 설계** 등 전 영역에 걸쳐 기여했습니다.
